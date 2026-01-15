@@ -63,9 +63,6 @@ func run() (outErr error) {
 	defer clean.FlushTo(&outErr)
 
 	for image, conf := range conf.Images {
-		// source := "minio/minio"
-		// tag := "RELEASE.2025-09-07T16-13-09Z"
-
 		println("checking", image)
 
 		tags, err := ghcr.ListTags(ctx, repo, image)
