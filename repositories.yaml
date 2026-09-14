@@ -10,3 +10,4 @@ images:
     tags:
       - "15.2"
       - "17.6-alpine3.22"
+      - "18.6-alpine3.24"
