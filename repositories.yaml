@@ -11,6 +11,10 @@ images:
       - "15.2"
       - "17.6-alpine3.22"
       - "18.6-alpine3.24"
+  pgvector:
+    source: pgvector/pgvector
+    tags:
+      - "pg18"
   valkey:
     source: valkey/valkey
     tags:
